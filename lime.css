@@ -1,0 +1,76 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.contenitore {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 70px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+header > img {
+    width: 180px;
+    margin-top: 80px;
+}
+
+header > h2 {
+    color: #04dc04;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #04dc04;
+    padding: 8px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+input[type="button"] {
+    font-size: 10px;
+}
+
+main > div{
+    margin-left: 75px;
+    text-align: left;
+}
+
+.pulsante, .selezione {
+    display:inline-block;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.posizione, .carica {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    margin: 5px;
+}
+
+.massima, .media, .bassa {
+    height: 25px;
+    border-radius: 5%;
+}
+
+.media {
+    background-color: #f3b353;
+    margin-right: 75%; 
+}
+
+.massima{
+    background-color: #04dc04;
+    margin-right: 50%;
+}
+
+.bassa {
+    background-color: #bb4443;
+    margin-right: 90%;
+}
